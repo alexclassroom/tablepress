@@ -2,7 +2,7 @@
  * TablePress Grunt configuration.
  *
  * Performs syntax checks for CSS, JS, and JSON files.
- * To run, use "npm install" and "npm run grunt lint" in the main plugin folder.
+ * To run, use "pnpm install" and "pnpm run grunt lint" in the main plugin folder.
  */
 
 /* jshint node: true */

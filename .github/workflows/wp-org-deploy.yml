@@ -43,7 +43,7 @@ jobs:
           mv ${ZIPPATH} ${GITHUB_WORKSPACE}/${SLUG}.${VERSION}.zip
 
       - name: Upload release ZIP file
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@v3
         if: ${{ github.event_name != 'workflow_dispatch' }}
         with:
           files: ${{ github.workspace }}/${{ vars.SLUG }}.${{ steps.get-version.outputs.version }}.zip

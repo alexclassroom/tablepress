@@ -2,8 +2,8 @@
  * TablePress webpack configuration, part of the @wordpress/scripts workflow.
  *
  * Performs syntax checks and minifies CSS and JS files.
- * To run, use "npm install" and "npm run build" in the main plugin folder.
- * Running "npm run start" will run a watch task, which will automatically
+ * To run, use "pnpm install" and "pnpm run build" in the main plugin folder.
+ * Running "pnpm run start" will run a watch task, which will automatically
  * lint and minify all changed CSS or JS files.
  */
 

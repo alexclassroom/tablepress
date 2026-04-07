@@ -11,8 +11,6 @@
 /vendor/ export-ignore
 /.browserslistrc export-ignore
 /.editorconfig export-ignore
-/.eslintignore export-ignore
-/.eslintrc.js export-ignore
 /.gitattributes export-ignore
 /.gitignore export-ignore
 /.phpunit.result.cache export-ignore
@@ -23,13 +21,15 @@
 /.typos.toml export-ignore
 /composer.json export-ignore
 /composer.lock export-ignore
+/eslint.config.mjs export-ignore
 /Gruntfile.js export-ignore
-/package-lock.json export-ignore
 /package.json export-ignore
 /phpcompat.xml.dist export-ignore
 /phpcs.xml.dist export-ignore
 /phpstan.neon.dist export-ignore
 /phpunit.xml.dist export-ignore
+/pnpm-lock.yaml export-ignore
+/pnpm-workspace.yaml export-ignore
 /readme.md export-ignore
 /rector.php export-ignore
 /webpack.config.js export-ignore

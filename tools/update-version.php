@@ -65,16 +65,6 @@ $replacements = array(
 			'search' => '(	public const db_version = )(\d+)(;)',
 		),
 	),
-	'package-lock.json'            => array(
-		array(
-			'search'  => '	"name": "@tablepress/tablepress",' . "\n" . '	"version": "\d+\.\d+\.?\d*",',
-			'replace' => '	"name": "@tablepress/tablepress",' . "\n	\"version\": \"{$new_version_long}\",",
-		),
-		array(
-			'search'  => '			"name": "@tablepress/tablepress",' . "\n" . '			"version": "\d+\.\d+\.?\d*",',
-			'replace' => '			"name": "@tablepress/tablepress",' . "\n			\"version\": \"{$new_version_long}\",",
-		),
-	),
 	'package.json'                 => array(
 		array(
 			'search'  => '	"name": "@tablepress/tablepress",' . "\n" . '	"version": "\d+\.\d+\.?\d*",',
