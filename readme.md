@@ -2,11 +2,11 @@
 
 TablePress is the most popular and highest rated [WordPress](https://wordpress.org/) table plugin.
 
-* Easily add, edit, and manage **small and large data tables**, without any coding!
-* Use any type of data, insert **images**, **links**, and even **math formulas**!
-* Add live **sorting**, **pagination**, **searching**, and more for your site’s visitors!
-* **Import** and **export** tables from/to Excel, CSV, HTML, and JSON files.
-* Embed tables into posts, pages, or other site areas using the block editor or Shortcodes.
+* Easily create, edit, and manage **beautiful and modern** data tables, from simple **price lists** to searchable **directories, product and model tables, inventories, schedules**, and research datasets.
+* Add live **sorting**, **pagination**, **searching**, and other interactive features that help visitors find what they’re looking for on any device.
+* Use any type of data and enrich your tables with **images**, **links**, and even **math formulas**.
+* **Import** and **export** tables from/to **Excel**, CSV, HTML, and JSON files or URLs, including spreadsheet data from **Google Sheets**, **Excel Online**, and files stored on **Dropbox** or **OneDrive**.
+* Embed tables into posts, pages, or other site areas using the block editor, an Elementor widget, or Shortcodes.
 * All with **no coding knowledge needed**!
 
 Even **more great features** for you and your site’s visitors and **priority email support** are **available** with a Premium license plan of TablePress. [Go check them out!](https://tablepress.org/premium/)
@@ -23,10 +23,10 @@ A demo of the frontend functionality is available at https://tablepress.org/demo
 
 The easiest way to install TablePress is via your WordPress Dashboard:
 
-1. Go to the “Plugins” screen, click “Add Plugin, and search for “TablePress” in the WordPress Plugin Directory.
+1. Go to the “Plugins” screen, click “Add Plugin”, and search for “TablePress” in the WordPress Plugin Directory.
 1. Click “Install Now” and after that’s complete, click “Activate”.
 1. Create and manage tables by going to the “TablePress” screen in the admin menu.
-1. To insert a table into a post or page, add a “TablePress table” block in the block editor and select the desired table.
+1. To insert a table into a post or page, add a “TablePress table” block in the block editor or a widget in the Elementor page builder and select the desired table or use Shortcodes with other page builders.
 
 Manual installation works just as for other WordPress plugins:
 
@@ -69,10 +69,21 @@ After installing the plugin, you can create and manage tables on the “TablePre
 To insert a table into a post or page, add a “TablePress table” block in the block editor and select the desired table.
 
 Beginner-friendly step-by-step [tutorials, guides, and how-tos](https://tablepress.org/tutorials/) show how to achieve common and popular tasks with TablePress.
-Examples for common styling changes via “Custom CSS” code can be found on the [TablePress FAQ page](https://tablepress.org/faq/).
-You may also add certain features (like sorting, pagination, filtering, alternating row colors, row highlighting, print name and/or description, ...) by enabling the corresponding checkboxes on a table’s “Edit” screen.
+You can find examples for common styling changes via “Custom CSS” code on the [TablePress FAQ page](https://tablepress.org/faq/).
+You may also add features like sorting, pagination, searching, filtering, alternating row colors, row highlighting, and more by enabling the corresponding options on a table’s “Edit” screen.
 
-**Even more great features for you and your site’s visitors and priority email support are available with a Premium license plan of TablePress. [Go check them out!](https://tablepress.org/premium/)**
+## Premium features
+
+Need additional functionality for larger tables or advanced use cases? Premium license plans for TablePress add features such as:
+
+* Options for responsive tables
+* Advanced filtering and search
+* Fixed table headers and columns
+* Automatic periodic imports
+* Custom styling options
+* And much more
+
+Priority email support is also included. [Check out the details on the TablePress website.](https://tablepress.org/premium/)
 
 ## Changelog
 

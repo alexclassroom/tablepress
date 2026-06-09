@@ -2,5 +2,3 @@
 /vendor/
 /composer.lock
 /.phpunit.result.cache
-
-# Further exclude patterns, only relevant locally, are in the .git/info/exclude file.
