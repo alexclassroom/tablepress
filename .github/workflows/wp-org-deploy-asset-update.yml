@@ -1,0 +1,24 @@
+name: Update WordPress.org Plugin Assets (Screenshots, readme.txt)
+
+on:
+  # Deploy plugin assets to wordpress.org when the workflow is manually triggered.
+  workflow_dispatch:
+
+jobs:
+
+  update_assets:
+    name: Update WordPress.org Plugin Assets
+    if: github.repository == 'TablePress/TablePress'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout TablePress repository
+        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+
+      - name: WordPress.org plugin asset/readme update
+        uses: 10up/action-wordpress-plugin-asset-update@stable
+        env:
+          SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
+          SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
+          SLUG: ${{ vars.SLUG }}
+          IGNORE_OTHER_FILES: true
